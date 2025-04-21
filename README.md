@@ -13,13 +13,19 @@ Projet NLP pour détecter automatiquement le sentiment (positif/négatif) de twe
 
 ## 📁 Structure
 ```
-📂 twitter-sentiment-analysis
-├── data/
-├── sentiment_model.ipynb
-├── results/
+📂 Analyse des Sentiments sur Twitter
+├── Analyse des Sentiments sur Twitter.ipynb
 ├── README.md
 ```
 
 ## 🔪 Exemple d’évaluation
 - Accuracy : 85.2%
 - F1-score : 0.84
+
+## Jeu de données
+
+Le dataset utilisé pour ce projet est **[Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)**, disponible publiquement sur Kaggle.
+
+> **Remarque :** En raison de la taille du fichier (plus de 25 Mo), il n’est pas inclus directement dans ce dépôt GitHub. Vous pouvez le télécharger depuis la page Kaggle ci-dessus et le placer dans le dossier approprié (`/input/` par exemple) pour reproduire les résultats.
+
+
